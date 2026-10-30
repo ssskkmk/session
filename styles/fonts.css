@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Press Start 2P';
+  src: local('Press Start 2P'), url('../fonts/PressStart2P-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Handjet';
+  src: local('Handjet'), url('../fonts/Handjet-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Handjet', sans-serif;
+}

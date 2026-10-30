@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>ПУЛЬС</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <!-- Маркер розовой стрелки -->
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <marker id="pink-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M 0 1 L 9 5 L 0 9 z" fill="#DA0078" />
+      </marker>
+    </defs>
+  </svg>
+
+  <div class="page-wrapper">
+
+    <div class="site-header dotted-border">
+      <a href="#hero" class="logo-block">
+        <span class="logo-title">ПУЛЬС</span>
+      </a>
+      <div class="main-nav">
+        <a href="#we">мы</a>
+        <a href="#history">наша история</a>
+        <a href="#philosophy">философия</a>
+        <a href="#audience">аудитория</a>
+        <a href="#features">возможности</a>
+      </div>
+    </div>
+
+    <div>
+      <div id="hero" class="section-hero">
+        <div class="hero-left">
+          <h1 class="section-title">ПУЛЬС</h1>
+          <div class="pixel-card dotted-border hero-card">
+            <div class="corner-badge dotted-border badge-cross">
+              <img src="images/иконка1.png" alt="Крест">
+            </div>
+            <!-- Прерывающаяся стрелка от первого блока к яблоку -->
+            <svg class="card-arrow hero-arrow" viewBox="0 0 255 130">
+              <path d="M 2 45 C 65 95, 125 90, 165 35 C 195 -5, 225 -5, 248 25"
+                    fill="none" stroke="#DA0078" stroke-width="1.6" stroke-dasharray="3 2"
+                    marker-end="url(#pink-arrow)" />
+            </svg>
+            <p>
+              Первая цифровая ЗОЖ-кофейня. Прокачай свой уровень в реальности: ИИ-помощник и абсолютный контроль над телом. Вступай в игру — начни квест за здоровьем!
+            </p>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <img src="images/картинка4.png" alt="Пиксельное зеленое яблоко" class="hero-apple">
+        </div>
+      </div>
+
+      <div id="we" class="section-we">
+        <div class="we-header">
+          <h2 class="section-title">МЫ</h2>
+          <p class="we-subtitle">
+             превратили заботу о себе в увлекательный квест с полностью оцифрованным сервисом. Никаких очередей и бумажных меню — только интерфейс в твоем смартфоне и два главных чит-кода:
+          </p>
+        </div>
+
+        <!-- Две прерывающиеся стрелки к карточкам блока МЫ -->
+        <div class="we-arrows-row">
+          <svg width="660" height="58" viewBox="0 0 660 58" style="overflow: visible;">
+            <path d="M 230 6 C 150 6, 85 18, 22 50"
+                  fill="none" stroke="#DA0078" stroke-width="1.6" stroke-dasharray="3 2"
+                  marker-end="url(#pink-arrow)" />
+            <path d="M 430 6 C 510 6, 575 18, 638 50"
+                  fill="none" stroke="#DA0078" stroke-width="1.6" stroke-dasharray="3 2"
+                  marker-end="url(#pink-arrow)" />
+          </svg>
+        </div>
+
+        <div class="we-row">
+          <div class="pixel-card dotted-border we-card-left">
+            <div class="corner-badge dotted-border badge-bolt">
+              <img src="images/иконка2.png" alt="Молния">
+            </div>
+            <p>
+              Система очков <span class="text-green">ПУЛЬС!</span> : Это не просто кешбэк, это коины твоего здоровья. Каждая позиция имеет свой вес: чем больше пользы в ингредиентах, тем больше очков. Ешь чисто, поднимайся в лидерборде «ТОП-Здоровье» и докажи, что ЗОЖ — это захватывающий лайфстайл.
+            </p>
+          </div>
+
+          <div class="we-center-img">
+            <img src="images/картинка1_2.jpg"
+                 onerror="this.onerror=null; this.src=&quot;data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 35 21' shape-rendering='crispEdges'%3E%3Cpath fill='%2382CE25' d='M13 1h9v1h-9zM8 2h3v1H8zm4 0h2v1h-2zm10 0h2v1h-2zM11 3h2v1h-2zm11 0h2v1h-2zM11 4h1v1h-1zm12 0h1v1h-1zM4 5h1v1H4zm2 0h7v1H6zm16 0h5v1h-5zM4 7h2v1H4zm4 0h2v1H8zm17 0h2v1h-2zm4 0h2v1h-2zM3 8h2v1H3zm4 0h2v1H7zm19 0h2v1h-2zm4 0h2v1h-2zM2 9h2v1H2zm4 0h2v1H6zm21 0h2v1h-2zm4 0h2v1h-2zM1 10h2v1H1zm4 0h2v1H5zm23 0h2v1h-2zm4 0h2v1h-2zM2 11h2v1H2zm4 0h2v1H6zm21 0h2v1h-2zm4 0h2v1h-2zM3 12h2v1H3zm4 0h2v1H7zm19 0h2v1h-2zm4 0h2v1h-2zM4 13h2v1H4zm4 0h2v1H8zm17 0h2v1h-2zm4 0h2v1h-2zM5 15h2v1H5zm3 0h5v1H8zm14 0h5v1h-5zm6 0h2v1h-2zM11 16h1v1h-1zm12 0h1v1h-1zM11 17h2v1h-2zm11 0h2v1h-2zM9 18h2v1H9zm3 0h2v1h-2zm9 0h2v1h-2zM13 19h9v1h-9z'/%3E%3Cpath fill='%23DA0078' d='M16 5h3v1h-3zM15 6h5v2h-5zM12 8h11v1H12zM11 9h13v3H11zM12 12h11v1H12zM15 13h5v2h-5zM16 15h3v1h-3z'/%3E%3C/svg%3E&quot;;"
+                 alt="Пиксельный кибер-символ с розовым крестом">
+          </div>
+
+          <div class="pixel-card dotted-border we-card-right">
+            <div class="corner-badge dotted-border badge-cup">
+              <img src="images/иконка3.png" alt="ИИ Люся">
+            </div>
+            <p>
+              <span class="text-green">ИИ-консультант Люся</span>: Твой карманный нутрициолог и главный саппорт. Не хочешь ломать голову над калориями? Люся за секунду рассчитает идеальное КБЖУ, составит персональный рацион под твои статы (цели) и подскажет, какой бафф (блюдо) взять сегодня для максимального восстановления энергии.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="history" class="section-history">
+        <h2 class="section-title">НАША ИСТОРИЯ</h2>
+
+        <div class="history-flex-layout">
+          <div class="history-top-row">
+            <div class="pixel-card dotted-border history-card-left">
+              <div class="corner-badge dotted-border badge-sprout-bowl">
+                <img src="images/иконка4.png" alt="Боул с молнией">
+              </div>
+              <p>
+                 В недалеком будущем, перегруженном синтетическим фастфудом, показатель базового здоровья (HP) человечества упал до критической отметки. 
+              </p>
+              <!-- Прерывающаяся стрелка от левой карточки истории к нижней -->
+              <svg class="card-arrow history-arrow-left" viewBox="0 0 220 195">
+                <path d="M 20 2 C -15 110, 55 195, 210 140"
+                      fill="none" stroke="#DA0078" stroke-width="1.6" stroke-dasharray="3 2"
+                      marker-end="url(#pink-arrow)" />
+              </svg>
+            </div>
+
+            <img src="images/картинка5.png" alt="Зеленый импульс с чашей и молнией" class="history-pulse-img">
+
+            <div class="pixel-card dotted-border history-card-right">
+              <div class="corner-badge dotted-border badge-top-left">
+                <img src="images/иконка3.png" alt="Иконка">
+              </div>
+              <p>
+                Вокруг ядра Люси был построен офлайн-хаб, замаскированный под 8-битную аркаду. Теперь каждый перекус здесь — это ценный лут, а Люся — верный компаньон, который направляет Игроков, помогая им взломать код собственного долголетия.
+              </p>
+            </div>
+          </div>
+
+          <div class="history-bottom-row">
+            <div class="pixel-card dotted-border history-card-bottom">
+              <div class="corner-badge dotted-border badge-top-right">
+                <img src="images/иконка2.png" alt="Иконка">
+              </div>
+              <p>
+                 Система дала сбой. Тогда группа энтузиастов-биохакеров разработала патч — протокол возрождения. Сердцем этого протокола стала L.U.C.Y. (Люся) - сверхточная нейросеть, обученная на миллионах чистых рецептов и данных о метаболизме.
+              </p>
+              <!-- Прерывающаяся стрелка от нижней карточки истории к правой -->
+              <svg class="card-arrow history-arrow-right" viewBox="0 0 225 120">
+                <path d="M 4 55 C 75 25, 165 115, 198 6"
+                      fill="none" stroke="#DA0078" stroke-width="1.6" stroke-dasharray="3 2"
+                      marker-end="url(#pink-arrow)" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="philosophy" class="section-philosophy">
+        <h2 class="section-title">ФИЛОСОФИЯ</h2>
+
+        <div class="philosophy-stage">
+          <div class="phil-row-1">
+            <div class="pixel-card dotted-border phil-card-1">
+              <p>
+                <span class="text-green">Здоровье</span> — это высший счет на табло. Мы верим, что правильная пища не должна ассоциироваться с пресными листьями салата и скукой, а подсчет макронутриентов не должен быть сложной рутиной.
+              </p>
+              <!-- Прерывающаяся стрелка от 1-го блока ко 2-му в Философии -->
+              <svg class="card-arrow phil-arrow-1-to-2" viewBox="0 0 230 275">
+                <path d="M 0 26 C 125 -30, 245 75, 175 262"
+                      fill="none" stroke="#DA0078" stroke-width="1.6" stroke-dasharray="3 2"
+                      marker-end="url(#pink-arrow)" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="phil-row-pacman">
+            <img src="images/картинка3.png" alt="Пиксельный Пакман и 5 розовых сердечек" class="philosophy-pacman">
+          </div>
+
+          <div class="phil-row-2">
+            <div class="pixel-card dotted-border phil-card-2">
+              <p>
+                Мы <span class="text-pink">геймифицировали</span> роцесс и делегировали всю сложную математику искусственному интеллекту, чтобы вернуть людям азарт. Здоровая конкуренция мотивирует лучше строгих 
+врачей, а заботливая ИИ Люся не даст сбиться
+с пути. 
+              </p>
+            </div>
+          </div>
+
+          <!-- Прерывающаяся стрелка от 2-го блока к 3-му в Философии -->
+          <div class="phil-arrow-row-2-to-3">
+            <svg width="240" height="54" viewBox="0 0 240 54" style="overflow: visible;">
+              <path d="M 220 2 C 155 40, 75 -4, 12 48"
+                    fill="none" stroke="#DA0078" stroke-width="1.6" stroke-dasharray="3 2"
+                    marker-end="url(#pink-arrow)" />
+            </svg>
+          </div>
+
+          <div class="phil-row-3">
+            <div class="pixel-card dotted-border phil-card-3">
+              <p>
+                Наша миссия — сделать <span class="text-green">чистую еду</span> самой популярной «многопользовательской игрой», где главный приз — твоё <span class="text-green">отличное самочувствие</span>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="audience" class="aud">
+        <div class="audience-header">
+          <h2 class="section-title mixed-case">Целевая аудитория</h2>
+          <p class="audience-sub">Кто собирается на нашей базе?</p>
+        </div>
+
+        <div class="audience-flex-stage">
+          <div class="audience-top-row">
+            <div class="pixel-card dotted-border aud-card-1">
+              <p>
+                В первую очередь, мы — реальная точка притяжения на карте города. Классное, атмосферное заведение, куда приходят за спешелти кофе, по-настоящему вкусной здоровой едой и живым общением.
+              </p>
+              <div class="corner-badge dotted-border badge-num-1">1</div>
+              <!-- Прерывающаяся стрелка от 1-го блока ко 2-му в Целевой аудитории -->
+              <svg class="card-arrow aud-arrow-1-to-2" viewBox="0 0 410 83">
+                <path d="M 2 48 C 125 -18, 285 -5, 395 76"
+                      fill="none" stroke="#DA0078" stroke-width="1.6" stroke-dasharray="3 2"
+                      marker-end="url(#pink-arrow)" />
+              </svg>
+            </div>
+
+            <img src="images/картинка6.png" alt="Зеленая чаша с розовой молнией" class="audience-bowl-img">
+
+            <div class="pixel-card dotted-border aud-card-2">
+              <p>
+                Наши гости — это те, кто ценит комфорт в офлайне, но живет и мыслит на цифровых скоростях: студенты, разработчики цифровых продуктов, IT-специалисты, дизайнеры и биохакеры, которым скучно в классических пресных эко-кафе. Это люди, которым нужно качественное топливо для подзарядки между парами, проектами или рабочими тасками.
+              </p>
+              <div class="corner-badge dotted-border badge-num-2">2</div>
+              <!-- Прерывающаяся стрелка от 2-го блока к 3-му в Целевой аудитории -->
+              <svg class="card-arrow aud-arrow-2-to-3" viewBox="0 0 340 155">
+                <path d="M 325 4 C 335 120, 185 150, 8 135"
+                      fill="none" stroke="#DA0078" stroke-width="1.6" stroke-dasharray="3 2"
+                      marker-end="url(#pink-arrow)" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="audience-bottom-row">
+            <div class="pixel-card dotted-border aud-card-3">
+              <div class="corner-badge dotted-border badge-num-3">3</div>
+              <p>
+                Они приходят к нам за крутой едой, но остаются ради игры: обожают пиксельную эстетику, кайфуют от удобства полностью оцифрованного сервиса, с радостью доверяют расчет КБЖУ нейросети Люсе и с азартом соревнуются с друзьями за первое место в лидерборде. Мы - физическое место, объединяющее любителей вкусно поесть и фанатов технологий под одной крышей.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="features" class="section-features">
+        <div class="feature-box dotted-border">
+          <h2 class="section-title mixed-case">Возможности</h2>
+          <div class="flist">
+            <p>
+              Меню и Заказ еды: Выбрать блюда, собрать свою корзину здоровья и оформить заказ на доставку или самовывоз.
+            </p>
+            <p>
+              Адрес кофейни: Где найти нашу офлайн-точкув реальном мире и часы работы.
+            </p>
+            <p>
+              Таблица лидеров («Глобальный ТОП-Здоровья»).
+            </p>
+            <p>
+              Чат с Люсей (твой ИИ-нутрициолог 24/7).
+            </p>
+          </div>
+        </div>
+
+        <div class="feature-box dotted-border">
+          <img src="images/картинка2.png" alt="Зеленая батарейка с ростком и розовым зарядом" class="battery-img">
+        </div>
+      </div>
+    </div>
+
+    <div class="panel2 dotted-border">
+      <p>Press ANY KEY to stay healthy. © 2026</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
